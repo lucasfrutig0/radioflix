@@ -1,20 +1,21 @@
 import React from "react";
 
+/* import ButtonLink from "./components/ButtonLink"; */
+
 import Logo from "../../assets/images/logo.png";
-import "./Menu.css";
-import Button from "../Buttons";
+import { LogoImage, MenuWrapper, ButtonLink } from "./style.js";
 
 function Menu() {
   return (
-    <nav className="Menu">
+    <MenuWrapper className="Menu">
       <a href="/">
-        <img className="Logo" src={Logo} alt="Logo RadioFlix" />
+        <LogoImage src={Logo} alt="Logo RadioFlix" />
       </a>
 
-      <Button as="a" className="ButtonLink" href="/">
+      <ButtonLink as="a" className="ButtonLink" href="/">
         Novo vídeo
-      </Button>
-    </nav>
+      </ButtonLink>
+    </MenuWrapper>
   );
 }
 

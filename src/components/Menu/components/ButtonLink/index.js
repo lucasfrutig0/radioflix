@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 
 const Button = styled.button`
@@ -20,5 +21,12 @@ const Button = styled.button`
     opacity: 0.5;
   }
 `;
+function ButtonLink(props) {
+  return (
+    <a href={props.href} className={props.className}>
+      {props.children}
+    </a>
+  );
+}
 
-export default Button;
+export default ButtonLink;

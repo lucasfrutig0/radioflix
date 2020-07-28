@@ -14,7 +14,7 @@ const AppWrapper = styled.div`
 
 function App() {
   return (
-    <AppWrapper style={{ backgroundColor: "#141414" }}>
+    <AppWrapper>
       <Menu />
 
       <BannerMain
