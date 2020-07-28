@@ -1,4 +1,6 @@
 import React from "react";
+import styled from "styled-components";
+
 import Menu from "./components/Menu";
 import BannerMain from "./components/BannerMain";
 import Carousel from "./components/Carousel";
@@ -6,9 +8,13 @@ import Footer from "./components/Footer";
 
 import dadosinicias from "./data/dados_iniciais.json";
 
+const AppWrapper = styled.div`
+  background: var(--grayDark);
+`;
+
 function App() {
   return (
-    <div style={{ backgroundColor: "#141414" }}>
+    <AppWrapper style={{ backgroundColor: "#141414" }}>
       <Menu />
 
       <BannerMain
@@ -30,7 +36,7 @@ function App() {
       <Carousel category={dadosinicias.categorias[5]} />
 
       <Footer></Footer>
-    </div>
+    </AppWrapper>
   );
 }
 
