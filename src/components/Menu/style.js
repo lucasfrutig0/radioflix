@@ -24,7 +24,7 @@ export const MenuWrapper = styled.nav`
   padding-left: 5%;
   padding-right: 5%;
 
-  background: var(--black);
+  background: var(--grayDark);
   border-bottom: 2px solid var(--primary);
 
   @media (max-width: 800px) {
