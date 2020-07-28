@@ -1,183 +1,183 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Shows",
+      "link": "https://radiohead.com/",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Veja mais no canal do Radiohead no Youtube",
+        "url": "https://www.youtube.com/user/radiohead"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Radiohead - Live in Belfort (July 1997) - At Home #WithMe",
+          "url": "https://www.youtube.com/watch?v=fIGuEnIT2ro"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Radiohead - Live in St. Gallen (July 2016) At Home #WithMe",
+          "url": "https://www.youtube.com/watch?v=gvju35K4XXU"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Radiohead - Live in Saitama (October 2008) At Home #WithMe",
+          "url": "https://www.youtube.com/watch?v=RzximgL9Ik0"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Radiohead - Live in São Paulo (April 2018) At Home #WithMe",
+          "url": "https://www.youtube.com/watch?v=T0uYhclh9f8"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Radiohead - In Rainbows From the Basement (April 2008) At Home #WithMe",
+          "url": "https://www.youtube.com/watch?v=DWuAn6C8Mfc"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Radiohead - Live at the Astoria (May 1994) At Home #WithMe",
+          "url": "https://www.youtube.com/watch?v=RjQZd8p-eBM"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Radiohead - The King Of Limbs From The Basement (December 2011) At Home #WithMe",
+          "url": "https://www.youtube.com/watch?v=hI5YMDioDBY"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Radiohead - Live at Summer Sonic (August 2016) At Home #WithMe",
+          "url": "https://www.youtube.com/watch?v=Z49AnoS7C9Q"
         }        
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Thom Yorke",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Veja mais no canal do Youtube",
+        "url": "https://www.youtube.com/channel/UC9BJwi8Q2AiLtLHdGlWqsrQ"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Hearing Damage",
+          "url": "https://www.youtube.com/watch?v=HSTFlBpNnvk"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Thom Yorke - Suspirium",
+          "url": "https://www.youtube.com/watch?v=BTZl9KMjbrU"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Thom Yorke - Unmade",
+          "url": "https://www.youtube.com/watch?v=27c3JaZq4_c"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Dawn Chorus",
+          "url": "https://www.youtube.com/watch?v=V9vx6J_pLCA"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Twist",
+          "url": "https://www.youtube.com/watch?v=I7QZG0Ca7Fw"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Ed O'Brien",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Mais no canal do Youtube",
+        "url": "https://www.youtube.com/channel/UCVEkrKky2mb-jI2lFhCmuMw"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "EOB - Brasil",
+          "url": "https://www.youtube.com/watch?v=xefWbfWUbrQ"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "EOB - Shangri-La",
+          "url": "https://www.youtube.com/watch?v=N7Djc5z-EMg"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "EOB - Santa Teresa",
+          "url": "https://www.youtube.com/watch?v=TG-Od2-OTdg"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "EOB - Olympik (Visualizer)",
+          "url": "https://www.youtube.com/watch?v=xK3cm-xO2XY"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Johnny Greenwood",
       "cor": "orange",
+      "link_extra": {
+        "text": "Mais no canal do Youtube",
+        "url": "https://www.youtube.com/channel/UCPPqwe6duBC_TOfzMihfCVw"
+      },
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Junun - Hu (Film Outtake)",
+          "url": "https://www.youtube.com/watch?v=M5tLoceVlZU"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Phantom Thread - House of Woodcock (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=bT_XjcdgT6g"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Jonny Greenwood - Prospectors Arrive",
+          "url": "https://www.youtube.com/watch?v=L6YndFacEnk"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Iron Swallow",
+          "url": "https://www.youtube.com/watch?v=93ENuOjm6Rc"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Phill Selway",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Mais no canal do Youtube",
+        "url": "https://www.youtube.com/user/PhilipSelway"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Philip Selway - Coming Up For Air",
+          "url": "https://www.youtube.com/watch?v=vMxXmW1pqeU"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Coming Up For Air - for Eid Global Celebration. Hosted by The Oxford Foundation.",
+          "url": "https://www.youtube.com/watch?v=g9KnnY1kjdg"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Philip Selway on Tour in the US from April",
+          "url": "https://www.youtube.com/watch?v=sgQyhCWl6zQ"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Philip Selway - Around Again",
+          "url": "https://www.youtube.com/watch?v=WkLfoBlJJWU"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "By Some Miracle",
+          "url": "https://www.youtube.com/watch?v=0xwxDra-xyg"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Colin Greenwood",
       "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Colin Greenwood - Select Live Moments",
+          "url": "https://www.youtube.com/watch?v=JwwtbsSc3m8"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "(2004/10/xx) Stephen Kijak, Colin, Ed & Jonny",
+          "url": "https://www.youtube.com/watch?v=DAJPhShQXdA"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Tamino - Indigo Night (feat Colin Greenwood) (Live) Paris (La Cigale)",
+          "url": "https://www.youtube.com/watch?v=SxGt1NyFxgs"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "(2013/09/25) Nowfashion, Colin",
+          "url": "https://www.youtube.com/watch?v=b6n5ghYoQXo"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Thom Yorke and Colin Greenwood Summer Sonic 2003 interview",
+          "url": "https://www.youtube.com/watch?v=2xKn33PAobY"
         }
       ]
     }
