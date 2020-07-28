@@ -10,6 +10,11 @@ import dadosinicias from "./data/dados_iniciais.json";
 
 const AppWrapper = styled.div`
   background: var(--grayDark);
+  padding-top: 94px;
+
+  @media (max-width: 800px) {
+    padding-top: 40px;
+  }
 `;
 
 function App() {
@@ -20,7 +25,9 @@ function App() {
       <BannerMain
         videoTitle={dadosinicias.categorias[0].videos[0].titulo}
         url={dadosinicias.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-End? Trabalhado na área"}
+        videoDescription={
+          "Recorded at Eurockéennes de Belfort, Lac du Malsaucy, Belfort, France"
+        }
       />
 
       <Carousel ignoreFirstVideo category={dadosinicias.categorias[0]} />

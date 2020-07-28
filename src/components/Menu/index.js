@@ -1,9 +1,8 @@
 import React from "react";
 
-/* import ButtonLink from "./components/ButtonLink"; */
-
 import Logo from "../../assets/images/logo.png";
-import { LogoImage, MenuWrapper, ButtonLink } from "./style.js";
+import { LogoImage, MenuWrapper } from "./style.js";
+import Button from "../Button";
 
 function Menu() {
   return (
@@ -12,9 +11,9 @@ function Menu() {
         <LogoImage src={Logo} alt="Logo RadioFlix" />
       </a>
 
-      <ButtonLink as="a" className="ButtonLink" href="/">
+      <Button as="a" className="ButtonLink" href="/">
         Novo vídeo
-      </ButtonLink>
+      </Button>
     </MenuWrapper>
   );
 }
