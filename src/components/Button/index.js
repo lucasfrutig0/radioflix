@@ -1,8 +1,9 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const Button = styled.button`
   color: var(--white);
   border: 1px solid var(--white);
+  background: ${(props) => (props.default ? "black" : "transparent")};
   box-sizing: border-box;
   cursor: pointer;
   padding: 16px 24px;
@@ -19,19 +20,22 @@ const Button = styled.button`
   &:focus {
     opacity: 0.5;
   }
-
-  @media (max-width: 800px) {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--primary);
-    color: var(--white);
-    outline: 0;
-    text-align: center;
-    border-radius: 0;
-    border: 0;
-  }
+  ${(props) =>
+    !props.default &&
+    css`
+      @media (max-width: 800px) {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: var(--primary);
+        color: var(--white);
+        outline: 0;
+        text-align: center;
+        border-radius: 0;
+        border: 0;
+      }
+    `}
 `;
 
 export default Button;
