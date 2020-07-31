@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import PageDefault from "../../../components/PageDefault";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
+import useForm from "../../../hooks/useForm";
 
 function CadastroCategoria() {
   const initialValues = {
@@ -11,32 +12,48 @@ function CadastroCategoria() {
     color: "",
   };
 
+  const { onChangeHandler, clearForm, values } = useForm(initialValues);
+
   const [categories, setCategories] = useState([]);
 
-  const [values, setValues] = useState(initialValues);
+  const createCategory = (categoryData) => {
+    const isLocalhost = window.location.href.includes("localhost");
+    const URL_POST = isLocalhost
+      ? "http://localhost:8080/categories"
+      : "https://radioflix-backend.herokuapp.com/categories";
 
-  const onChangeHandler = (event) => {
-    const { name, value } = event.target;
-    //chave: dinâmica
-    setValues({
-      ...values,
-      [name]: value,
+    fetch(URL_POST, {
+      method: "POST",
+      body: JSON.stringify(categoryData),
+      headers: {
+        "Content-Type": "application/json; charset=UTF-8",
+      },
+    }).then(async (res) => {
+      const result = await res.json();
+      setCategories([...categories, result]);
     });
   };
 
   const onSubmitHandler = (event) => {
     event.preventDefault();
+    const objData = {
+      id: Math.floor(Math.random() * 100),
+      ...values,
+    };
 
-    setCategories([...categories, values]);
-    setValues(initialValues);
+    createCategory(objData);
+    clearForm();
   };
 
   useEffect(() => {
-    const URL = "http://localhost:8080/categories";
+    /* const URL = "https://radioflix-backend.herokuapp.com/categories"; */
+    const isLocalhost = window.location.href.includes("localhost");
+    const URL = isLocalhost
+      ? "http://localhost:8080/categories"
+      : "https://radioflix-backend.herokuapp.com/categories";
     fetch(URL).then(async (res) => {
       const result = await res.json();
       setCategories([...result]);
-      console.log(result);
     });
   }, []);
 

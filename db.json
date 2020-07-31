@@ -5,6 +5,26 @@
       "name": "Thom Yorke",
       "description": "",
       "color": "#cbd1ff"
+    },
+    {
+      "id": 32,
+      "name": "Shows",
+      "description": "aaa",
+      "color": "#456bb9"
+    }
+  ],
+  "videos": [
+    {
+      "title": "ww",
+      "url": "https://www.youtube.com/watch?v=fIGuEnIT2ro",
+      "categoryId": 1,
+      "id": 1
+    },
+    {
+      "title": "mais u",
+      "url": "https://www.youtube.com/watch?v=fIGuEnIT2ro",
+      "categoryId": 32,
+      "id": 2
     }
   ]
 }

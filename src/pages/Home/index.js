@@ -1,12 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 import Menu from "../../components/Menu";
 import BannerMain from "../../components/BannerMain";
 import Carousel from "../../components/Carousel";
 import Footer from "../../components/Footer";
-
-import dadosinicias from "../../data/dados_iniciais.json";
+import repositoryCategories from "../../repositories/categories";
 
 const AppWrapper = styled.div`
   background: var(--grayDark);
@@ -18,11 +17,45 @@ const AppWrapper = styled.div`
 `;
 
 function Home() {
+  const [initialData, setInitialData] = useState([]);
+
+  useEffect(() => {
+    repositoryCategories
+      .getAllWithVideos()
+      .then(async (categoriesWithVideos) => {
+        await setInitialData(categoriesWithVideos);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
   return (
     <AppWrapper>
       <Menu />
 
-      <BannerMain
+      {initialData.length === 0 && <div>Loading ...</div>}
+
+      {initialData.map((category, idx) => {
+        if (idx === 0) {
+          return (
+            <div key={category.id}>
+              <BannerMain
+                videoTitle={initialData[0].videos[0].title}
+                url={initialData[0].videos[0].url}
+                videoDescription={
+                  "Recorded at Eurockéennes de Belfort, Lac du Malsaucy, Belfort, France"
+                }
+              />
+
+              <Carousel ignoreFirstVideo category={initialData[0]} />
+            </div>
+          );
+        }
+
+        return <Carousel key={category.id} category={category} />;
+      })}
+
+      {/* <BannerMain
         videoTitle={dadosinicias.categorias[0].videos[0].titulo}
         url={dadosinicias.categorias[0].videos[0].url}
         videoDescription={
@@ -40,7 +73,7 @@ function Home() {
 
       <Carousel category={dadosinicias.categorias[4]} />
 
-      <Carousel category={dadosinicias.categorias[5]} />
+      <Carousel category={dadosinicias.categorias[5]} /> */}
 
       <Footer></Footer>
     </AppWrapper>
